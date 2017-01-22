@@ -1,0 +1,138 @@
+/*
+COLORS
+main red:     rgba(213, 90, 62, 0.79)
+light yellow: rgba(254, 191, 0, 0.74)
+light brown:  #f9f5ee
+*/
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.border {
+  padding: 10px;
+  overflow: hidden;
+  font-size: 40px;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  word-break: break-all;
+  outline: 1px solid red;
+  position: absolute;
+}
+
+.border-top {
+  height: 60px;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.border-bottom {
+  height: 60px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.border-left {
+  height: 100%;
+  width: 60px;
+  top: 0;
+  left: 0;
+}
+
+.border-right {
+  height: 100%;
+  width: 60px;
+  top: 0;
+  right: 0;
+}
+
+.border-rights {
+  height: 60px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+
+body {
+    font-family: 'Lobster', cursive;
+    background: #607d7d;
+    padding: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.main-container {
+    background: #f9f5ee;
+    border-radius: 5px;
+    height: 100%;
+    box-shadow: inset -2px 0 1000px 10px rgba(0, 0, 0, 0.3);
+}
+
+.header {
+    max-width: 768px;
+    width: 100%;
+    top: 10%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    padding-top: 40px;
+}
+
+.date-container {
+    border-radius: 100%;
+    background-color: rgba(254, 191, 0, 0.74);
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    right: 10px;
+    bottom: -120px;
+    transform: rotate(-7deg);
+}
+
+.date-day {
+  font-size: 110px;
+      top: -15px;
+      position: relative;
+      left: 6px;
+      opacity: 0.9;
+}
+
+.date-month {
+  font-size: 90px;
+  position: absolute;
+  top: 55px;
+  left: -3px;
+  opacity: 0.8;
+}
+
+.illustration-container {
+    margin: 0 auto;
+    border-radius: 100%;
+    background-color: rgba(213, 90, 62, 0.79);
+    width: 600px;
+    height: 600px;
+    padding-top: 40px;
+}
+
+.illustration {
+    width: 60%;
+}
+
+.header-title {
+    font-size: 160px;
+    line-height: 130px;
+    position: absolute;
+    display: inline-block;
+    transform: rotate(-7deg);
+    width: 100%;
+    left: 0;
+    bottom: -90px;
+    margin: 0;
+    opacity: 0.9;
+}
