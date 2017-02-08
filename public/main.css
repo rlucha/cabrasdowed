@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);@keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3); }
+  50% {
+    opacity: 1; } }
+
+.cdw-poster-saveTheDate {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn; }
+
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  background: #302f2e; }
+
+.cdw {
+  padding: 10px;
+  color: #212120; }
+  .cdw-card {
+    margin: 0 auto;
+    max-width: 480px;
+    border-radius: 10px;
+    background: #faf6ee;
+    padding: 10px;
+    position: relative;
+    border-top: 1px dashed rgba(0, 0, 0, 0.3);
+    margin-top: -1px; }
+    .cdw-card:first-child {
+      border: none; }
+  .cdw-poster {
+    font-family: "Lobster"; }
+    .cdw-poster-illustration {
+      height: 450px;
+      width: 400px;
+      margin: 60px auto 0;
+      background-size: 100%;
+      background-image: url("/assets/illustration.jpg"); }
+    .cdw-poster-saveTheDate {
+      border-radius: 100%;
+      background: #6ec5a4;
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      top: 60px;
+      right: 30px;
+      color: #faf6ee;
+      text-align: center;
+      font-size: 32px;
+      line-height: 22px;
+      transform: rotate(-10deg);
+      padding: 14px 18px; }
+    .cdw-poster-date {
+      border-radius: 100%;
+      background: #fbcd3c;
+      width: 130px;
+      height: 130px;
+      position: absolute;
+      top: 240px;
+      left: 20px;
+      transform: rotate(-10deg);
+      text-align: center;
+      text-shadow: 3px 5px 0px rgba(250, 246, 238, 0.4); }
+      .cdw-poster-date-day {
+        font-size: 72px;
+        position: relative;
+        top: -34px;
+        left: -5px; }
+      .cdw-poster-date-month {
+        font-size: 72px;
+        position: relative;
+        top: -83px;
+        left: -7px; }
+      .cdw-poster-date-year {
+        font-size: 52px;
+        position: relative;
+        top: -108px;
+        left: 3px; }
+    .cdw-poster-title {
+      transform: rotate(-10deg);
+      font-size: 100px;
+      text-align: center;
+      position: relative;
+      top: -80px;
+      letter-spacing: -2px;
+      text-shadow: 3px 5px 0px rgba(112, 171, 186, 0.4); }
+    .cdw-poster-subtitle {
+      transform: rotate(-10deg);
+      text-align: center;
+      position: relative;
+      top: -100px;
+      font-size: 38px;
+      text-shadow: 3px 5px 0px rgba(112, 171, 186, 0.3); }
+  .cdw-info-presents {
+    font-family: "Roboto Condensed";
+    text-transform: uppercase;
+    text-align: center; }
