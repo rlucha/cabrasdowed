@@ -43,7 +43,7 @@ body {
       width: 400px;
       margin: 60px auto 0;
       background-size: 100%;
-      background-image: url("/assets/illustration.jpg"); }
+      background-image: url("/public/assets/illustration.jpg"); }
     .cdw-poster-saveTheDate {
       border-radius: 100%;
       background: #6ec5a4;
