@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import tilt from 'tilt.js';
+import PhotoGallery, { GalleryContainer } from './gallery';
+import { CdwCabrasForThem } from './cabras-for-them';
+import { CdwInfo } from './cabras-info';
 
-import './index.scss';
+import './scss/index.scss';
 
-const App = props =>
+const App = props => (
   <div className="cdw">
     <div className="cdw-card">
       <CdwPoster />
@@ -11,11 +15,18 @@ const App = props =>
     <div className="cdw-card">
       <CdwInfo />
     </div>
+    <div className="cdw-card">
+      <CdwCabrasForThem />
+    </div>
+    <div className="cdw-card">
+      <GalleryContainer />
+    </div>
   </div>
+);
 
-const CdwPoster = props =>
+const CdwPoster = props => (
   <div className="cdw-poster">
-    <div className="cdw-poster-illustration"></div>
+    <div className="cdw-poster-illustration" />
     <div className="cdw-poster-date">
       <div className="cdw-poster-date-day">11</div>
       <div className="cdw-poster-date-month">June</div>
@@ -25,10 +36,12 @@ const CdwPoster = props =>
     <div className="cdw-poster-subtitle">Guest Star: Bruno</div>
     <div className="cdw-poster-saveTheDate">Save <br />the <br />date</div>
   </div>
+);
 
-const CdwInfo = props =>
-  <div className="cdw-info">
-    <div className="cdw-info-presents">Cabras & Co. Records present: Coming Soon</div>
-  </div>
+ReactDOM.render(<App />, document.getElementById('root'));
 
- ReactDOM.render(<App />, document.getElementById('root'));
+$(() => {
+  $('.cdw-card:first-child').tilt({
+    perspective: 400
+  });
+});
