@@ -4,6 +4,7 @@ import tilt from 'tilt.js';
 import PhotoGallery, { GalleryContainer } from './gallery';
 import { CdwCabrasForThem } from './cabras-for-them';
 import { CdwInfo } from './cabras-info';
+import { CdwMap } from './cabras-map';
 
 import './scss/index.scss';
 
@@ -16,8 +17,9 @@ const App = props => (
       <CdwInfo />
     </div>
     <div className="cdw-card">
-      <CdwCabrasForThem />
+      <CdwMap />
     </div>
+
     <div className="cdw-card">
       <GalleryContainer />
     </div>

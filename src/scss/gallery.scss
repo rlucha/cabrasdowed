@@ -1,11 +1,32 @@
 .cdw {
   &-photo-gallery {
-    img {
+
+    &-header {
+      @extend %cdw-title;
+
+      &-subtitle {
+        font-family: $font-secondary;
+        font-size: 12pt;
+        padding: 8px;
+      }
+
+      &-view-more {
+        text-decoration: underline;
+        font-family: 'Roboto';
+        font-size: 11pt;
+        margin: 10px 0 20px;
+      }
+    }
+
+    &-img {
       border-radius: 4px;
+      border: 1px solid rgba(0,0,0,0.1);
     }
     &-title {
       @extend %cdw-title;
     }
+
+
     &-place {
       
     }

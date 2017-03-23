@@ -10,14 +10,26 @@
   -webkit-animation-name: zoomIn;
   animation-name: zoomIn; }
 
-.cdw-photo-gallery-title {
+.cdw-photo-gallery-header, .cdw-photo-gallery-title {
   font-family: "Lobster";
   font-size: 24px;
   text-align: center;
   margin: 10px 0; }
 
-.cdw-photo-gallery img {
-  border-radius: 4px; }
+.cdw-photo-gallery-header-subtitle {
+  font-family: "Roboto Condensed";
+  font-size: 12pt;
+  padding: 8px; }
+
+.cdw-photo-gallery-header-view-more {
+  text-decoration: underline;
+  font-family: 'Roboto';
+  font-size: 11pt;
+  margin: 10px 0 20px; }
+
+.cdw-photo-gallery-img {
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.1); }
 
 .cdw-info {
   font-family: "Roboto Condensed"; }
@@ -42,7 +54,7 @@
     .cdw-info-main-date-day {
       font-size: 60pt;
       font-weight: bold;
-      font-family: 'serif';
+      font-family: serif;
       line-height: 0.8; }
     .cdw-info-main-date-monthyear {
       font-weight: bold;
@@ -64,6 +76,21 @@
       color: #de7a62;
       font-weight: bold;
       padding-top: 4px; }
+
+.cdw-map-title {
+  font-family: "Lobster";
+  font-size: 24px;
+  text-align: center;
+  margin: 10px 0; }
+
+.cdw-map-subtitle {
+  font-family: "Roboto Condensed";
+  font-size: 12pt;
+  padding: 8px;
+  text-align: center; }
+
+.cdw-map-img {
+  border-radius: 4px; }
 
 html, body {
   padding: 0;

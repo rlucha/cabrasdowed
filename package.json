@@ -32,6 +32,6 @@
     "sass-loader": "^5.0.0",
     "socketio": "^1.0.0",
     "style-loader": "^0.13.1",
-    "webpack": "latest"
+    "webpack": "^2.0.0"
   }
 }
