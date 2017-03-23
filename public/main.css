@@ -90,7 +90,8 @@
   text-align: center; }
 
 .cdw-map-img {
-  border-radius: 4px; }
+  border-radius: 4px;
+  max-width: 100%; }
 
 html, body {
   padding: 0;
@@ -130,7 +131,6 @@ body {
       width: 80%;
       margin: 40px auto 0;
       background-size: 100%;
-      background-image: url("/assets/illustration.jpg");
       background-repeat: no-repeat; }
     .cdw-poster-saveTheDate {
       border-radius: 100%;

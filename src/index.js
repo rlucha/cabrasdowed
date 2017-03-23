@@ -28,7 +28,7 @@ const App = props => (
 
 const CdwPoster = props => (
   <div className="cdw-poster">
-    <div className="cdw-poster-illustration" />
+    <div className="cdw-poster-illustration" style={{backgroundImage:'url(assets/illustration.jpg)'}} />
     <div className="cdw-poster-date">
       <div className="cdw-poster-date-day">11</div>
       <div className="cdw-poster-date-month">June</div>

@@ -22242,7 +22242,7 @@ var CdwPoster = function CdwPoster(props) {
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
     'div',
     { className: 'cdw-poster' },
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { className: 'cdw-poster-illustration' }),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { className: 'cdw-poster-illustration', style: { backgroundImage: 'url(assets/illustration.jpg)' } }),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       'div',
       { className: 'cdw-poster-date' },
