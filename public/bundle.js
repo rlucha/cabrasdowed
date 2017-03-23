@@ -22322,7 +22322,7 @@ var CdwMap = function CdwMap(props) {
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       "a",
       { href: "https://www.google.es/maps/place/BARRACA+EL+PALMAR/@39.3766745,-0.4179471,12z/" },
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { className: "cdw-map-img", src: "/assets/mapa.jpg" })
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { className: "cdw-map-img", src: "assets/mapa.jpg" })
     )
   );
 };
