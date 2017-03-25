@@ -5,6 +5,7 @@ import PhotoGallery, { GalleryContainer } from './gallery';
 import { CdwCabrasForThem } from './cabras-for-them';
 import { CdwInfo } from './cabras-info';
 import { CdwMap } from './cabras-map';
+import { CdwProjects } from './cabras-projects';
 
 import './scss/index.scss';
 
@@ -19,9 +20,11 @@ const App = props => (
     <div className="cdw-card">
       <CdwMap />
     </div>
-
     <div className="cdw-card">
       <GalleryContainer />
+    </div>
+    <div className="cdw-card">
+      <CdwProjects />
     </div>
   </div>
 );
