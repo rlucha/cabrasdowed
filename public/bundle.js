@@ -9607,9 +9607,9 @@ var CdwProjects = function CdwProjects(props) {
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       "p",
       null,
-      " Estos son nuestros planes a m\xE1s corto plazo: "
+      " Estos son nuestros planes a m\xE1s corto plazo:  "
     ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: "assets/honeymoon.jpg", alt: "" }),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { className: "cdw-projects-img", src: "assets/honeymoon.jpg", alt: "" }),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       "p",
       { className: "cdw-projects-subtitle" },
@@ -9620,7 +9620,7 @@ var CdwProjects = function CdwProjects(props) {
       null,
       " El proyecto \u30CF\u30CD\u30E0\u30FC (Hanem\u016Bn) llevar\xE1 a dos freakys y su freakyreto\xF1o a Jap\xF3n, para pasar unos d\xEDas y cumplir alg\xFAn que otro sue\xF1o."
     ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: "assets/couplegoats.jpg", alt: "" }),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { className: "cdw-projects-img", src: "assets/couplegoats.jpg", alt: "" }),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       "p",
       { className: "cdw-projects-subtitle" },

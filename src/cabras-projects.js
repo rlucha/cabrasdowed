@@ -16,13 +16,13 @@ const CdwProjects = props => (
       <strong>¡Gracias por estar, gracias por querernos!</strong>
     </p>
 
-    <p> Estos son nuestros planes a más corto plazo: </p>
+    <p> Estos son nuestros planes a más corto plazo:  </p>
 
-    <img src="assets/honeymoon.jpg" alt="" />
+    <img className="cdw-projects-img" src="assets/honeymoon.jpg" alt="" />
     <p className="cdw-projects-subtitle">Hanemün</p>
     <p> El proyecto ハネムー (Hanemūn) llevará a dos freakys y su freakyretoño a Japón, para pasar unos días y cumplir algún que otro sueño.</p>
 
-    <img src="assets/couplegoats.jpg" alt="" />
+    <img className="cdw-projects-img"  src="assets/couplegoats.jpg" alt="" />
     <p className="cdw-projects-subtitle">Goat Couple</p>
     <p>
       Con el proyecto <a href="http://www.oxfam.org.uk/shop/oxfam-unwrapped/animal-lovers/goat-couple-ou9011ml"> Goat Couple </a> colaboraremos con Intermón Oxfam para regalar unas cabras a una familia africana.
