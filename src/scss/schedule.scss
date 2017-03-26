@@ -1,0 +1,31 @@
+.cdw-projects {
+  text-align: center;
+  font-family: $font-secondary;
+
+  &-title {
+    font-family: $font-primary;
+    font-size: 24px;
+    text-align: center;
+    margin: 10px 0;  
+  }
+
+  &-subtitle {
+  	font-family: $font-primary;
+	padding: 0;
+    margin: 0;
+    margin-top: -10px;
+    font-size: 24px;  	
+  }
+	
+  &-separator {
+  	margin-top: 40px;
+  	border-top: 1px solid rgba(0,0,0,0.2);
+  }
+
+  &-img {
+	border-radius: 8px;
+    margin-bottom: 8px;
+    max-width: 100%;
+  }
+
+}

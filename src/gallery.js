@@ -38,13 +38,15 @@ class GalleryContainer extends React.Component {
           <img className="cdw-photo-gallery-img" src="assets/gallery/mei02.jpg" width="160" height="240" alt="" />
           <img className="cdw-photo-gallery-img" src="assets/gallery/mei03.jpg" width="160" height="240" alt="" />
           <img className="cdw-photo-gallery-img" src="assets/gallery/mei04.jpg" width="320" height="240" alt="" />
+          <img className="cdw-photo-gallery-img" src="assets/gallery/mei21.jpg" width="160" height="320" alt="" />
+          <img className="cdw-photo-gallery-img" src="assets/gallery/mei22.jpg" width="160" height="320" alt="" />
           <img className="cdw-photo-gallery-img" src="assets/gallery/mei06.jpg" width="320" height="240" alt="" />
           <img className="cdw-photo-gallery-img" src="assets/gallery/mei10.jpg" width="320" height="160" alt="" />
           <img className="cdw-photo-gallery-img" src="assets/gallery/mei05.jpg" width="160" height="320" alt="" />
           <img className="cdw-photo-gallery-img" src="assets/gallery/mei09.jpg" width="160" height="160" alt="" />
           <img className="cdw-photo-gallery-img" src="assets/gallery/mei11.jpg" width="160" height="240" alt="" />
           <img className="cdw-photo-gallery-img" src="assets/gallery/mei12.jpg" width="160" height="320" alt="" />
-          <img className="cdw-photo-gallery-img" src="assets/gallery/mei13.jpg" width="320" height="320" alt="" />
+          <img className="cdw-photo-gallery-img" src="assets/gallery/mei23.jpg" width="320" height="240" alt="" />
           <img className="cdw-photo-gallery-img" src="assets/gallery/mei14.jpg" width="160" height="240" alt="" />
           <img className="cdw-photo-gallery-img" src="assets/gallery/mei16.jpg" width="160" height="240" alt="" />
           <img className="cdw-photo-gallery-img" src="assets/gallery/mei17.jpg" width="160" height="240" alt="" />

@@ -93,6 +93,15 @@
   border-radius: 4px;
   max-width: 100%; }
 
+.cdw-schedule {
+  text-align: center;
+  font-family: "Roboto Condensed"; }
+  .cdw-schedule-title {
+    font-family: "Lobster";
+    font-size: 24px;
+    text-align: center;
+    margin: 10px 0; }
+
 .cdw-projects {
   text-align: center;
   font-family: "Roboto Condensed"; }
@@ -114,6 +123,15 @@
     border-radius: 8px;
     margin-bottom: 8px;
     max-width: 100%; }
+
+.cdw-dresscode {
+  text-align: center;
+  font-family: "Roboto Condensed"; }
+  .cdw-dresscode-title {
+    font-family: "Lobster";
+    font-size: 24px;
+    text-align: center;
+    margin: 10px 0; }
 
 html, body {
   padding: 0;

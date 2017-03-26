@@ -6,6 +6,8 @@ import { CdwCabrasForThem } from './cabras-for-them';
 import { CdwInfo } from './cabras-info';
 import { CdwMap } from './cabras-map';
 import { CdwProjects } from './cabras-projects';
+import { CdwSchedule } from './cabras-schedule';
+import { CdwDresscode } from './cabras-dresscode';
 
 import './scss/index.scss';
 
@@ -19,6 +21,12 @@ const App = props => (
     </div>
     <div className="cdw-card">
       <CdwMap />
+    </div>
+    <div className="cdw-card">
+      <CdwSchedule />
+    </div>
+    <div className="cdw-card">
+      <CdwDresscode />
     </div>
     <div className="cdw-card">
       <GalleryContainer />
