@@ -6,11 +6,9 @@ const CdwProjects = props => (
       Proyectos
     </div>
     <p>
-
       Como yá sabréis, después de la celebración nos mudamos a Londres,
       así que esto también va a ser una fiesta de despedida. <br />
       ¡Os vamos a echar mucho de menos!
-
     </p>
     <p>
       <strong>¡Gracias por estar, gracias por querernos!</strong>
@@ -20,7 +18,7 @@ const CdwProjects = props => (
 
     <img className="cdw-projects-img" src="assets/honeymoon.jpg" alt="" />
     <p className="cdw-projects-subtitle">Hanemün</p>
-    <p> El proyecto ハネムー (Hanemūn) llevará a dos freakys y su freakyretoño a Japón, para pasar unos días y cumplir algún que otro sueño.</p>
+    <p> El proyecto ハネムー (Hanemūn) llevará a dos frikis a Japón, para pasar unos días y cumplir algún que otro sueño.</p>
 
     <img className="cdw-projects-img"  src="assets/couplegoats.jpg" alt="" />
     <p className="cdw-projects-subtitle">Goat Couple</p>

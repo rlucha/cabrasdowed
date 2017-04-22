@@ -102,8 +102,13 @@
     text-align: center;
     margin: 10px 0; }
 
+.cdw-schedule {
+  text-align: left;
+  padding: 0 20px; }
+  .cdw-schedule-title {
+    margin-left: -20px; }
+
 .cdw-projects {
-  text-align: center;
   font-family: "Roboto Condensed"; }
   .cdw-projects-title {
     font-family: "Lobster";

@@ -1,5 +1,14 @@
+.cdw-schedule {
+  text-align: left;
+  padding: 0 20px;
+
+  &-title {
+    margin-left: -20px;
+  }
+}
+
 .cdw-projects {
-  text-align: center;
+  
   font-family: $font-secondary;
 
   &-title {
