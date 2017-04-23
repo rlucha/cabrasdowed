@@ -9437,35 +9437,7 @@ var ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';
 module.exports = ReactPropTypesSecret;
 
 /***/ }),
-/* 80 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CdwDresscode; });
-
-
-var CdwDresscode = function CdwDresscode(props) {
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-    "div",
-    { className: "cdw-dresscode" },
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      "div",
-      { className: "cdw-dresscode-title" },
-      "Dresscode"
-    ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      "p",
-      null,
-      "Coming soon"
-    )
-  );
-};
-
-
-
-/***/ }),
+/* 80 */,
 /* 81 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9702,47 +9674,104 @@ var CdwProjects = function CdwProjects(props) {
 
 var CdwSchedule = function CdwSchedule(props) {
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-    "div",
-    { className: "cdw-schedule" },
+    'div',
+    { className: 'cdw-schedule', style: { background: '0 10px url(assets/agenda_bg.png)' } },
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      "div",
-      { className: "cdw-schedule-title" },
-      "Agenda"
+      'div',
+      { className: 'cdw-schedule-title' },
+      'Agenda'
     ),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      "p",
+      'p',
       null,
-      "11:30 - Salida del autob\xFAs desde Valencia"
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'strong',
+        null,
+        '11:30'
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
+      ' Salida del autob\xFAs desde Valencia',
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
+      ' (lugar a concretar)'
     ),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      "p",
+      'p',
       null,
-      "12:30 - Ceremonia"
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'strong',
+        null,
+        '12:00'
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
+      ' Llegada a La Barraca d\'Amparo ',
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
+      '(el Palmar)'
     ),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      "p",
+      'p',
       null,
-      "13:00 - Cocktail y M\xFAsica en directo Sedajazz "
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'strong',
+        null,
+        '12:30'
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
+      ' Ceremonia y ritos paganos'
     ),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      "p",
+      'p',
       null,
-      "15:00 - Banquete "
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'strong',
+        null,
+        '13:00'
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
+      ' Aperitivo & jazz'
     ),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      "p",
+      'p',
       null,
-      "17:00 - Discoteca de temazos de los 80 y 90 "
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'strong',
+        null,
+        '15:00'
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
+      ' Comilona '
     ),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      "p",
+      'p',
       null,
-      "22:00 - Barbacoa chill, concierto de jazz "
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'strong',
+        null,
+        '17:00'
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
+      ' Retrospectorrrr de los 80, 90 y 2000 \u266B'
     ),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      "p",
+      'p',
       null,
-      "00:00 - Recogida del autob\xFAs "
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'strong',
+        null,
+        '22:00'
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
+      ' Barbacoa chill, concierto \xEDntimo '
+    ),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'p',
+      null,
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'strong',
+        null,
+        '00:00'
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
+      ' Salida del bus de vuelta a Valencia '
     )
   );
 };
@@ -10187,11 +10216,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__cabras_map__ = __webpack_require__(83);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__cabras_projects__ = __webpack_require__(84);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__cabras_schedule__ = __webpack_require__(85);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__cabras_dresscode__ = __webpack_require__(80);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__scss_index_scss__ = __webpack_require__(87);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__scss_index_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10__scss_index_scss__);
-
-
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__scss_index_scss__ = __webpack_require__(87);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__scss_index_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9__scss_index_scss__);
 
 
 
@@ -10226,11 +10252,6 @@ var App = function App(props) {
       'div',
       { className: 'cdw-card' },
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_8__cabras_schedule__["a" /* CdwSchedule */], null)
-    ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'div',
-      { className: 'cdw-card' },
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9__cabras_dresscode__["a" /* CdwDresscode */], null)
     ),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       'div',
