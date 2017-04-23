@@ -1,8 +1,13 @@
 .cdw-schedule {
+  text-align: center;
+  font-family: $font-secondary;
   padding: 6px 40px 60px;
 
   &-title {
+    font-family: $font-primary;
+    font-size: 24px;
+    text-align: center;
+    margin: 10px 0;  
     padding: 5px 0;
   }
 }
-

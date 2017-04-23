@@ -9530,6 +9530,16 @@ var CdwInfo = function CdwInfo(props) {
         { className: "cdw-info-additional-date-confirm" },
         " Please confirm your assistance "
       )
+    ),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("hr", null),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      "div",
+      null,
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        "a",
+        { className: "cdw-info-confirm", href: "https://docs.google.com/forms/d/e/1FAIpQLScDLcU52WwH_y2aJc8AA-7yhMn0PBNMrYJ9iqNrkt9GljK7cA/viewform?usp=pp_url&entry.1498135098&entry.2606285" },
+        "Pincha aqu\xED para confirmar asistencia"
+      )
     )
   );
 };
@@ -9614,7 +9624,7 @@ var CdwProjects = function CdwProjects(props) {
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       "p",
       { className: "cdw-projects-subtitle" },
-      "Hanem\xFCn"
+      "Hanem\u016Bn"
     ),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       "p",
@@ -9638,18 +9648,21 @@ var CdwProjects = function CdwProjects(props) {
       ),
       " colaboraremos con Interm\xF3n Oxfam para regalar unas cabras a una familia africana. Porque son cabras, porque son molonas y porque son una forma de mejorar la vida de quien m\xE1s lo necesita."
     ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("hr", { className: "cdw-projects-separator" }),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", null),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", null),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      "p",
+      { className: "cdw-projects-subtitle" },
+      "N\xFAmero de cuenta"
+    ),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       "p",
       null,
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         "strong",
         null,
-        "N\xFAmero de cuenta "
-      ),
-      " ",
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", null),
-      "ES41 1465 0300 61 1717584118"
+        "ES41 1465 0300 61 1717584118"
+      )
     ),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       "p",

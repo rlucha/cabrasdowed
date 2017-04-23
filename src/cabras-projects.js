@@ -17,7 +17,7 @@ const CdwProjects = props => (
     <p> Estos son nuestros planes a más corto plazo:  </p>
 
     <img className="cdw-projects-img" src="assets/honeymoon.jpg" alt="" />
-    <p className="cdw-projects-subtitle">Hanemün</p>
+    <p className="cdw-projects-subtitle">Hanemūn</p>
     <p> El proyecto ハネムー (Hanemūn) llevará a dos frikis a Japón, para pasar unos días y cumplir algún que otro sueño.</p>
 
     <img className="cdw-projects-img"  src="assets/couplegoats.jpg" alt="" />
@@ -26,11 +26,12 @@ const CdwProjects = props => (
       Con el proyecto <a href="http://www.oxfam.org.uk/shop/oxfam-unwrapped/animal-lovers/goat-couple-ou9011ml"> Goat Couple </a> colaboraremos con Intermón Oxfam para regalar unas cabras a una familia africana.
       Porque son cabras, porque son molonas y porque son una forma de mejorar la vida de quien más lo necesita.
     </p>
+    <br />
+    <br />
 
-    <hr className="cdw-projects-separator" />
-    <p><strong>Número de cuenta </strong> <br />ES41 1465 0300 61 1717584118</p>
+    <p className="cdw-projects-subtitle">Número de cuenta</p>
+    <p><strong>ES41 1465 0300 61 1717584118</strong></p>
     <p> ¡No aceptamos sobres! (no tenemos caja B)</p>
-
 
     <img className="cdw-projects-img" src="assets/rajoy.jpg" alt="" />
   </div>

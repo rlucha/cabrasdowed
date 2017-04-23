@@ -20,6 +20,10 @@ const CdwInfo = props => (
       <hr />
       <div className="cdw-info-additional-date-confirm"> Please confirm your assistance </div>
     </div>
+    <hr />
+    <div>
+      <a className="cdw-info-confirm" href="https://docs.google.com/forms/d/e/1FAIpQLScDLcU52WwH_y2aJc8AA-7yhMn0PBNMrYJ9iqNrkt9GljK7cA/viewform?usp=pp_url&entry.1498135098&entry.2606285">Pincha aquí para confirmar asistencia</a>
+    </div>
 
   </div>
 );

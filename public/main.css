@@ -46,6 +46,21 @@
     text-align: center;
     font-family: "Roboto Condensed";
     font-size: 10pt; }
+  .cdw-info-confirm {
+    width: 100%;
+    padding: 10px;
+    background: #29c78b;
+    border: 1px solid #0bbd83;
+    border-radius: 2px;
+    font-size: 14px;
+    margin: 10px 0;
+    box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center; }
   .cdw-info-main-date {
     border-right: 1px solid black;
     width: 30%;
@@ -93,18 +108,38 @@
   border-radius: 4px;
   max-width: 100%; }
 
-.cdw-schedule {
-  text-align: center;
-  font-family: "Roboto Condensed"; }
-  .cdw-schedule-title {
+.cdw-projects {
+  font-family: "Roboto Condensed";
+  padding: 0 10px;
+  text-align: center; }
+  .cdw-projects-title {
     font-family: "Lobster";
     font-size: 24px;
     text-align: center;
     margin: 10px 0; }
+  .cdw-projects-subtitle {
+    font-family: "Lobster";
+    padding: 0;
+    margin: 0;
+    margin-top: -10px;
+    font-size: 20px; }
+  .cdw-projects-separator {
+    margin-top: 40px;
+    border-top: 1px solid rgba(0, 0, 0, 0.2); }
+  .cdw-projects-img {
+    border-radius: 8px;
+    margin-bottom: 8px;
+    max-width: 100%; }
 
 .cdw-schedule {
+  text-align: center;
+  font-family: "Roboto Condensed";
   padding: 6px 40px 60px; }
   .cdw-schedule-title {
+    font-family: "Lobster";
+    font-size: 24px;
+    text-align: center;
+    margin: 10px 0;
     padding: 5px 0; }
 
 html, body {
