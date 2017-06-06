@@ -5,7 +5,7 @@ const CdwSchedule = props => (
     <div className="cdw-schedule-title">
       Agenda
     </div>
-    <p><strong>11:30</strong><br/> Salida del autobús desde Valencia<br/> (lugar a concretar)</p>
+    <p><strong>11:30</strong><br/> Salida del autobús desde Valencia<br/> Expohotel Nuevo Centro, Pío XII nº4</p>
     <p><strong>12:00</strong><br/> Llegada a La Barraca d'Amparo <br/>(el Palmar)</p>
     <p><strong>12:30</strong><br/> Ceremonia y ritos paganos</p>
     <p><strong>13:00</strong><br/> Aperitivo & jazz</p>
